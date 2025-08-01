@@ -7,6 +7,6 @@
 
 
 ## Jour 2 - 01 août 2025
-- **Activités :** Création et correction migration pour table `tasks` (id, title, description, status, timestamps). Création modèle `Task` avec `$fillable`.
-- **Problèmes rencontrés :** Erreur "Array to string conversion" résolue en changeant `string` en `enum` pour `status`.
-- **Code produit :** Migration et modèle Task poussés[](https://github.com/RadoKelly/laravel-fullstack-60days).
+- **Activités :** Création et correction migration pour table `tasks` (id, title, description, status, timestamps). Création modèle `Task` avec `$fillable`. Création contrôleur `TaskController` (index, store, show) avec correction index(). Ajout routes pour tasks (index, store, show avec Route::resource->only).
+- **Problèmes rencontrés :** Erreur "Array to string conversion" résolue en changeant `string` en `enum` pour `status`. Correction mineure dans TaskController::index (all() et compact).
+- **Code produit :** Migration, modèle, contrôleur, et routes Task poussés[](https://github.com/RadoKelly/laravel-fullstack-60days).
